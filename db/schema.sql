@@ -1,4 +1,7 @@
+DROP DATABASE IF EXISTS employee_manager;
 CREATE DATABASE employee_manager;
+
+USE employee_manager; 
 
 CREATE TABLE department (
   id INT AUTO_INCREMENT PRIMARY KEY,
