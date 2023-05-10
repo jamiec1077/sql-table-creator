@@ -1,29 +1,6 @@
 
-const dotenv = require("dotenv")
 const inquirer = require("inquirer");
-const mysql = require("mysql2");
-const consoletable = require("console.table")
-
-
-
-
-const connection = mysql.createConnection({
-
-    host: 'localhost',
-    port: 3306,
-    username:'user',
-    password:'jamie123',
-    database:'employee_manager'
-});
-
-
-connection.connect(function (err) {
-    if (err) throw err;
-    console.log("connection ");
-    
-});
-
-
+ require("console.table");
 
 function promptUser()
 {
