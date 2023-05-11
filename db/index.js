@@ -158,5 +158,5 @@ viewDepartmentBudgets() {
     `;
     return this.connection.promise().query(query);
   }
-  
+}  
   module.exports= new DB(connection);
